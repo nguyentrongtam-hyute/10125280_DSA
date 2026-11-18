@@ -12,7 +12,7 @@ Chương trình C# dạng console, gom các bài tập thực hành về **đệ
 ```
 Buoi01_DeQuy/
 └── BTTH1/
-    ├── BTTH1.csproj
+    ├── Buoi01_DeQuy.csproj
     ├── Program.cs        # Menu chính, gọi Run() của từng bài
     ├── Helper.cs         # Hàm hỗ trợ: tạo mảng ngẫu nhiên, in mảng, Swap, đọc số
     ├── B1C1.cs ... B4C1.cs   # Chương 1
@@ -26,14 +26,14 @@ Quy ước tên file: `B<số bài>C<số chương>.cs`, ví dụ `B1C2.cs` = B�
 ## Lệnh chạy
 
 ```bash
-cd Buoi01_DeQuy/BTTH1
+cd Buoi01_DeQuy
 
 # Biên dịch + chạy
 dotnet run
 
 # Hoặc build bản Release rồi chạy
 dotnet build -c Release
-dotnet bin/Release/net10.0/BTTH1.dll
+dotnet bin/Release/net10.0/Buoi01_DeQuy.dll
 ```
 
 Chương trình hiện menu, nhập số thứ tự bài (`1`–`18`) để chạy, `0` để thoát. Các bài có nhập liệu đều có **giá trị mặc định**: nhấn `Enter` để dùng giá trị trong ngoặc `(Enter = ...)`. Sau mỗi bài, nhấn phím bất kỳ để quay lại menu.
